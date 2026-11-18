@@ -1,0 +1,163 @@
+#background {
+      margin: 20px;
+      height: 600vh;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      padding-top: 50px;
+      padding-left: 25px;
+      padding-right: 25px;
+      font-family: sans-serif;
+      color: white;
+      /* Animation name, duration, timing function, and infinite loop */
+      animation: colorCycle 9s ease-in-out infinite;
+    }
+
+    @keyframes colorCycle {
+      0% {
+        background-color: #6a5fff; 
+      }
+      25% {
+        background-color: #a421b0; 
+      }
+      50% {
+        background-color: #ab2f2f; 
+      }
+      75% {
+        background-color: #a421b0; 
+      }
+      100% {
+        background-color: #6a5fff; 
+      }
+    }
+
+#main-name{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px;
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 100px;
+    color: white;
+} 
+
+#synopsis{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;  
+  margin: 20px;
+}
+
+#grammy-awards{
+  display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px;
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 50px;
+    color: white;
+}
+
+#amawards{
+  display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px;
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 50px;
+    color: white;
+}
+
+#additionalhonors{
+  display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px;
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 50px;
+    color: white;
+}
+
+#top10greatesthits{
+  display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px;
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 50px;
+    color: white;
+}
+
+#personalnote{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;  
+  margin: 20px;
+}
+
+.one{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.one > div {
+    margin: 30px;
+    padding: 30px;
+    font-size: 30px;
+}
+
+.two{
+    display: flex;
+    Flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.two > div {
+    margin: 30px;
+    padding: 30px;
+    font-size: 15px;
+}
+
+.three{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.three > div {
+    margin: 30px;
+    padding: 30px;
+    font-size: 15px;
+}
+
+.four{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.four > div {
+    margin: 30px;
+    padding: 30px;
+    font-size: 15px;
+} 
